@@ -1,0 +1,28 @@
+{
+    "name": "duyminh/framework",
+    "description": "Duy Minh Framework",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/"
+        },
+        "files": [
+            "src/Helper/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Duy Minh",
+            "email": "minhkirito002@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.33",
+        "psr/log": "1.1.1",
+        "filp/whoops": "2.5.0",
+        "jenssegers/blade": "^1.4",
+        "rakit/validation": "^1.4"
+    }
+}
